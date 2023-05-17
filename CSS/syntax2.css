@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(164, 223, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    margin: 5px 40%;
+    margin-bottom: 0px;
+    font-size: 30px;
+    width: 200px;
+    padding: 5px;
+}
+
+form {
+    background-color: white;
+    margin: 0px 35px 55px 35px;
+    padding: 15px;
+
+}
+
+/* form p{
+    font-size: 15px;
+} */
+
+/*INPUT TEXT STYLES */
+#text {
+    width: 350px;
+    margin-left: 400px;
+}
+
+label[for="fullname"],
+label[for="email"],
+label[for="age"] {
+    margin-left: 38%;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+label[for="age"] {
+    margin-left: 39%;
+}
+
+input[type="text"] {
+    width: 230px;
+    opacity: 0.8;
+}
+
+span {
+    margin-right: 5px;
+}
+
+/*SELECT STYLES  */
+label[for="question1"] {
+    margin-left: 18%;
+    font-size: 15px;
+}
+
+select[name="question"] {
+    margin-left: 5px;
+    background-color: rgb(240, 232, 232);
+}
+select[name="question"]:hover{
+    background-color: #8f8d8d;
+}
+
+/*RADIO STYLES  */
+#survey {
+    font-size: 15px;
+    margin-left: 21%;
+    width: 400px;
+}
+#survey p{
+    width: 280px;
+    
+    margin-left: 1.9%;
+}
+span.survey{
+    border: none;
+    width: 185px;
+    margin-left: 85px;
+    display: block;
+}
+#radios{
+    position: relative;
+    margin-top: -50px;
+    font-size: 15px;
+    margin-left: 280px;
+    margin-bottom: 8px;
+}
+#certain, #uncertain, #unsure{
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+
+
+/*SELECT STYLES 2 */
+label[for="question2"] {
+    margin-left: 27%;
+    font-size: 15px;
+}
+select[name="question2"] {
+    margin-left: 5px;
+    background-color: rgb(240, 232, 232);
+    width: 120px;
+}
+select[name="question2"]:hover{
+    background-color: #8f8d8d;
+}
+
+/*CHECKBOX STYLES */
+#projects{
+    font-size: 15px;
+    margin-left: 19%;
+    width: 500px;
+    
+}
+#projects p{
+    width: 300px;
+    /* border: 1px solid #000; */
+    margin-left: 8.5px;
+    
+}
+span.project{
+    margin-left: 150px;
+    border: none;
+    width: 150px;
+    /* border: 1px solid #000; */
+    display: block;
+}
+#checkbox{
+    position: relative;
+    margin-top: -50px;
+    font-size: 15px;
+    margin-left: 310px;
+    margin-bottom: 8px;
+    width: 150px;
+}
+#project1, #project2, #project3{
+    line-height: 20px;
+    margin-bottom: 2px;  
+}
+/* SUBMIT */
+input[type=submit]{
+    margin-bottom: 50px;
+    border: 2px solid #000;
+    background-color: rgb(240, 232, 232);
+    height: 20px;
+    margin-top: 20px;
+}
+input[type=submit]:hover{
+    background-color: #8f8d8d;
+}

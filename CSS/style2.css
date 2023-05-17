@@ -1,0 +1,27 @@
+.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    background: #f3eaea;
+    flex-wrap: wrap;
+    
+}
+.box{
+    height: 100px;
+    flex: 0 0 100px;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: blue;
+}
+.three{
+    background-color: green;
+}
+.four{
+    background-color: yellowgreen;
+}

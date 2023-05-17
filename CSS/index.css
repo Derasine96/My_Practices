@@ -1,0 +1,14 @@
+a{
+    margin: 10px ;
+    padding: 10px;
+    border: 1px solid rgb(250, 150, 60);
+    background-color: #5a7a73;
+    text-decoration: none;
+    display: inline-block;
+   
+}
+.static-width{
+    width: 300px;
+    height: 300px;
+   
+}

@@ -1,0 +1,39 @@
+
+#circle{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgb(200, 200, 100);
+    border-radius: 200px;
+    top: 50px;
+    left: 50px;
+}
+#circle-2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgb(200, 100, 100);
+    border-radius: 200px;
+    top: 250px;
+    left: 150px;
+    opacity: 0.3;
+}
+#circle-3{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgb(100, 200, 200);
+    border-radius: 200px;
+    top: 50px;
+    left: 250px;
+    opacity: 0.7;
+}
+#image{
+    background: url("../img/IMG_4199.jpg");  
+    height: 150px;
+
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+}

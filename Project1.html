@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="css/syntax2.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <h1>Survey Form</h2>
+    </div>
+
+    <form>
+        <div id="text">
+            <p>Let us know how we can improve freeCodeCamp</p>
+        </div>
+
+
+        <label for="fullname"><span>*</span>Name:</label>
+        <input type="text" id="fullname" name="full name" placeholder="Enter your name" required><br><br>
+        <label for="email"><span>*</span>Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required><br><br>
+        <label for="age"><span>*</span>Age:</label>
+        <input type="text" id="age" name="age" placeholder="Age" required><br><br>
+
+
+        <label for="question1">Which option best describes your current role?</label>
+        <select name="question" id="question1">
+            <option value="q1">Student</option>
+            <option value="q2">Unemployed</option>
+            <option value="q3">Employed</option>
+            <option value="q5">Others</option>
+        </select>
+        <br><br>
+
+        <div id="survey">
+            <p>How likely is that you would recommend <br> <span class="survey">freeCodeCamp to a friend?</span></p>
+            <div id="radios">
+                <div id="certain"><input type="radio" id="certain" name="survey" value="definitely" class="definitely">
+                    <label for="certain">Definitely</label><br>
+                </div>
+                <div id="uncertain"><input type="radio" id="uncertain" name="survey" value="Maybe" class="Maybe">
+                    <label for="uncertain">Maybe</label><br>
+                </div>
+                <div id="unsure"><input type="radio" id="unsure" name="survey" value="not sure" class="not sure">
+                    <label for="unsure">Not sure</label><br><br>
+                </div>
+            </div>
+        </div>
+
+
+        <label for="question2">What do you like most in FCC:</label>
+        <select name="question2" id="question2">
+            <option value="q1">Select an option</option>
+            <option value="q2">Video quality</option>
+            <option value="q3">Customer Services</option>
+            <option value="q4">Comment options</option>
+            <option value="q5">Availabilty of meeting other coders</option>
+        </select>
+        <br><br>
+
+        <div id="projects">
+            <p>Things that should be improved in the future <br>
+                <span class="project">(Check all that apply):</span>
+            </p>
+            <div id="checkbox">
+                <div id="project1"><input type="checkbox" id="project1" name="projects" value="front-end">
+                    <label for="project1">Front-end Projects</label><br>
+                </div>
+                <div id="project2"><input type="checkbox" id="project2" name="projects" value="back-end">
+                    <label for="project2">Back-end Projects</label><br>
+                </div>
+                <div id="project3"><input type="checkbox" id="project3" name="projects" value="data">
+                    <label for="project3">Data Visualization</label><br><br>
+                </div>
+            </div>
+        </div>
+        <input type="submit" value="Submit your Form">
+
+    </form>
+</body>
+
+</html>

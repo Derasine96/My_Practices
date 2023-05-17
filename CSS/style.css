@@ -1,0 +1,98 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+body {
+    background-color: #eee;
+}
+
+/* menu base styles */
+nav {
+    background: #333;
+    line-height: 8px;
+    font-size: 12px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+nav a {
+    text-decoration: none;
+    /* text-align: center; */
+    color: white;
+    display: block;
+    padding: 15px;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+/* social menu styles */
+a.tw {
+    background: url("../Example1/tw.png") no-repeat center;
+    background-size: 70%;
+}
+a.fb {
+    background: url("../Example1/fb.png") no-repeat center;
+    background-size: 120%;
+}
+a.ig {
+    background: url("../Example1/ig.png") no-repeat center;
+    background-size: 70%;
+}
+.social a {
+    text-indent: -10000px;
+}
+.social {
+    max-width: 100px;
+    margin: 0;
+}
+/* grid vs fles base styles */
+
+
+/* flex styles */
+nav {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+nav ul {
+    display: flex;
+    margin: 0;
+}
+nav ul.social {
+    flex: 1 1 0;
+    display: flex;
+}
+nav ul.social li {
+    flex: 1 1 0;
+}
+
+@media screen and (min-width: 960px) {
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+
+    }
+ nav ul {
+    display: flex;
+    margin: 0;
+    }
+.social{
+    margin: 0;
+}
+
+
+
+
+
+
+
+}
